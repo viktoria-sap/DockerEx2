@@ -9,7 +9,7 @@ services:
       - POSTGRES_DB=myhome_db
 
     ports:
-      - '5432:5432'
+      - '8080:8080'
 
     volumes:
       - ./data:/var/lib/postgresql/data
